@@ -87,7 +87,7 @@ for($v=0;$v<= $a;$v++){
 $rd= rand();
 
 
-$email="minhiep$rd@gmail.com";
+$email="huutanphp$rd@gmail.com";
 
 
 
@@ -96,7 +96,7 @@ $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, 'https://sso.garena.com/api/register');
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
-curl_setopt($ch, CURLOPT_POSTFIELDS, "username=$tk$v&email=$email&password=979940b1fa83833e7719dfd5686b6ca8a1a67d9e7dae72999bcaae88f4374c3a1ace10e4dfd7573fe87489d7778cf271119a8cc59aab6d4e6b1a4579ffba36aef52589cfae9cbeed55c214ce5d025e95298f5067fd14c20890aa9ed8968d1655bcb3631b978b9fc6e242e09ac1563fa509e067d325d685286535f110d415c5cb&location=VI&redirect_uri=&locale=vi&mobile_no=&otp=&format=json&id=1662953367967");
+curl_setopt($ch, CURLOPT_POSTFIELDS, "username=$tk$v&email=$email&password=7ff30a3d0bcb05c43fc84c6a3f6cc768dc9caa723f6cd24e3c049c88ff56eec6d5e5be07e587620388108c3d3a434e992a8393d5f798d01ae1560d8c3399fa1e8ac19ce3ce53eea62c19f88570f9f4364d49fb4442cec582f5f64c21636fe83176ed2b432b3d0b956944fe02652de7e51687d4210ba961770963f6c760195784&location=VI&redirect_uri=&locale=vi&mobile_no=&otp=&format=json&id=1680886134502");
 curl_setopt($ch, CURLOPT_ENCODING, 'gzip, deflate');
 
 $headers = array();
