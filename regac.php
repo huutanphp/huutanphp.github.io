@@ -135,7 +135,7 @@ $so++;
 echo $BCyan."[$so] $BGreen Tạo Thành Công \033[1;31mTài Khoản : \033[1;33m$id \033[1;31mMật Khẩu : \033[1;33mAbcxyz123123@@ \n";
 
 $f = fopen("acgarena.txt","a");
-$luu = fwrite($f,"$id | Datnguyen@#123\n");
+$luu = fwrite($f,"$id | Abcxyz123123@@\n");
 fclose($f);
 if($so == $a){
 echo $cyan."Đã Lưu Vào File acgarena.txt Đợi Khoản 30 phút chạy típ nhé \n"; die;
