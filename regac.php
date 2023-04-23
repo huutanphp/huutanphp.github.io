@@ -96,7 +96,7 @@ $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, 'https://sso.garena.com/api/register');
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 curl_setopt($ch, CURLOPT_POST, 1);
-curl_setopt($ch, CURLOPT_POSTFIELDS, "username=$tk$v&email=$email&password=7ff30a3d0bcb05c43fc84c6a3f6cc768dc9caa723f6cd24e3c049c88ff56eec6d5e5be07e587620388108c3d3a434e992a8393d5f798d01ae1560d8c3399fa1e8ac19ce3ce53eea62c19f88570f9f4364d49fb4442cec582f5f64c21636fe83176ed2b432b3d0b956944fe02652de7e51687d4210ba961770963f6c760195784=VI&redirect_uri=&locale=vi&mobile_no=&otp=&format=json&id=1680886134502");
+curl_setopt($ch, CURLOPT_POSTFIELDS, "username=$tk$v&email=$email&password=2f55c7d4344a5550fc723a6ea229cb12a42779757b52c7301f0dd9e05e09db77eb4837b7c895ae5713e332bd256b6b41a73c99f26a810d10de201e675867a542add3c75fe39c09b010a4b4dbf5d65d27815aafe14cd52f762f08069107eb74f6f7ab542ca4e3270d0a0490701c5b6f19fd835a79339b3e54b5a021388ce8cea9=VI&redirect_uri=&locale=vi&mobile_no=&otp=&format=json&id=1680886134502");
 curl_setopt($ch, CURLOPT_ENCODING, 'gzip, deflate');
 
 $headers = array();
