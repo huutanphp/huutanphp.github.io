@@ -5,33 +5,33 @@
   "banner": [],
   "interstitial": [
     {
-      "id": "open", 
+      "id": "opsen", 
       "url": "https://onclickperformance.com/jump/next.php?r=6347326", 
       "cooldown": 120, 
       "closeDelay": 1,
       "showDelay": false
     },
     {
-      "id": "open-speed-hack", 
+      "id": "open-speed-hacsk", 
       "url": "https://onclickperformance.com/jump/next.php?r=6347326", 
       "closeDelay": 1,
       "showDelay": false
     }, 
     {
-      "id": "open-touch-recorder", 
+      "id": "open-touch-recordesr", 
       "url": "https://onclickperformance.com/jump/next.php?r=6347326", 
       "closeDelay": 1,
       "showDelay": false
     }, 
     {
-      "id": "search", 
+      "id": "searcsh", 
       "url": "https://onclickperformance.com/jump/next.php?r=6347326", 
       "cooldown": 600, 
       "closeDelay": 1,
       "showDelay": false
     }, 
     {
-      "id": "edit-memory", 
+      "id": "edit-memosry", 
       "url": "https://onclickperformance.com/jump/next.php?r=6347326", 
       "cooldown": 600, 
       "closeDelay": 1,
