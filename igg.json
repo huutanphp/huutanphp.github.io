@@ -1,0 +1,41 @@
+{
+  "appId": "com.gamegod.iGameGod", 
+  "cooldown": 0,
+  "launchDelay": 30,
+  "banner": [],
+  "interstitial": [
+    {
+      "id": "open", 
+      "url": "https://onclickperformance.com/jump/next.php?r=6347326", 
+      "cooldown": 120, 
+      "closeDelay": 1,
+      "showDelay": false
+    },
+    {
+      "id": "open-speed-hack", 
+      "url": "https://onclickperformance.com/jump/next.php?r=6347326", 
+      "closeDelay": 1,
+      "showDelay": false
+    }, 
+    {
+      "id": "open-touch-recorder", 
+      "url": "https://onclickperformance.com/jump/next.php?r=6347326", 
+      "closeDelay": 1,
+      "showDelay": false
+    }, 
+    {
+      "id": "search", 
+      "url": "https://onclickperformance.com/jump/next.php?r=6347326", 
+      "cooldown": 600, 
+      "closeDelay": 1,
+      "showDelay": false
+    }, 
+    {
+      "id": "edit-memory", 
+      "url": "https://onclickperformance.com/jump/next.php?r=6347326", 
+      "cooldown": 600, 
+      "closeDelay": 1,
+      "showDelay": false
+    }
+  ]
+}
