@@ -1,24 +1,43 @@
 // ==UserScript==
-// @name        script
-// @namespace   sc
-// @include     *
-// @version     1
-// @require  http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js
-// @require  https://gist.github.com/raw/2625891/waitForKeyElements.js
-// @grant    GM_addStyle
+// @name           Add Udid Developer
+// @namespace      https://github.com/igorskyflyer
+// @version        1.0.19
+// @author         Igor DimitrijeviÄ (@igorskyflyer)
+// @description    Counters anti-AdBlock scripts
+// @homepage       https://github.com/igorskyflyer/userscript-anti-anti-adblock
+// @homepageURL    https://github.com/igorskyflyer/userscript-anti-anti-adblock
+// @website        https://igorskyflyer.me
+// @downloadURL    https://github.com/igorskyflyer/userscript-anti-anti-adblock/raw/main/anti-anti-adblock.user.js
+// @updateURL      https://github.com/igorskyflyer/userscript-anti-anti-adblock/raw/main/anti-anti-adblock.user.js
+// @supportURL     https://github.com/igorskyflyer/userscript-anti-anti-adblock/issues
+// @grant          unsafeWindow
+// @match          https://developer.apple.com/*
+// @run-at         document-end
 // ==/UserScript==
 
-waitForKeyElements ("#buy-now", triggerMostButtons);
+unsafeWindow.dotcom = { flags: { adverts: true, analytics: true,  }, userinfo: { ads: true }, initAnalytics: function() {} }
+unsafeWindow.zaraz = { track: function() {} }
+unsafeWindow.demandSupply = { pfAds: true, setPfAds: function() {} }
+unsafeWindow.zarazData = {}
+unsafeWindow.AdTrack = { init: function() {} }
+unsafeWindow.MDCore = { adblock: 0 }
 
-function triggerMostButtons (jNode) {
-    triggerMouseEvent (jNode[0], "mouseover");
-    triggerMouseEvent (jNode[0], "mousedown");
-    triggerMouseEvent (jNode[0], "click");
-    triggerMouseEvent (jNode[0], "mouseup");
-}
+unsafeWindow.hasAdBlocker =
+unsafeWindow.abp = false;
 
-function triggerMouseEvent (node, eventType) {
-    var clickEvent = document.createEvent('MouseEvents');
-    clickEvent.initEvent (eventType, true, true);
-    node.dispatchEvent (clickEvent);
-}
+unsafeWindow.googleAd =
+unsafeWindow.isLoadAds =
+unsafeWindow.generatorAds =
+unsafeWindow.zfgloadedpopup =
+unsafeWindow.canRunAds =
+unsafeWindow.canRunAdvertise = true;
+
+unsafeWindow.google_ad_status = 1;
+
+unsafeWindow.GeneratorAds =
+unsafeWindow.Ads_PushPage =
+unsafeWindow.Ads_Popunder =
+unsafeWindow.Ads_Vignette =
+unsafeWindow.postAntiadblockInfo =
+unsafeWindow.AdsPlugin =
+unsafeWindow.AdscoreInit = function() {}
