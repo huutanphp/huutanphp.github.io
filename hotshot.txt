@@ -1,2 +1,2 @@
-127.0.0.1:8080 thuongpro.name.vn
+127.0.0.1 thuongpro.name.vn
 
